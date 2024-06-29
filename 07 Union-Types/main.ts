@@ -1,5 +1,7 @@
 // TypeScript’s type system allows you to build new types out of existing ones using a large variety of operators. Now that we know how to write a few types, it’s time to start combining them in interesting ways.
 
+// But they are not NEW, its just alternate names for a type
+
 // 1. The first way to combine types you might see is a union type. A union type is a type formed from two or more other types, representing values that may be any one of those types. We refer to each of these types as the union’s members.
 
 const printId = (id: number | string) => {
